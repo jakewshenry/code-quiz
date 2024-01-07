@@ -1,9 +1,32 @@
 function getQuizQuestions() {
 	return[
 	{
-	  question: "What is JavaScript primarily used for?",
-	  choices: ["Styling web pages", "Creating database tables", "Enhancing interactivity on websites", " Managing server-side operations"],
-	  correctAnswer: "Enhancing interactivity on websites"
+        question: "Who invented JavaScript?",
+        answers: {
+          a: "Douglas Crockford",
+          b: "Sheryl Sandberg",
+          c: "Brendan Eich"
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: "Which one of these is a JavaScript package manager?",
+        answers: {
+          a: "Node.js",
+          b: "TypeScript",
+          c: "npm"
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: "Which tool can you use to ensure code quality?",
+        answers: {
+          a: "Angular",
+          b: "jQuery",
+          c: "RequireJS",
+          d: "ESLint"
+        },
+        correctAnswer: "d"
 	},
 ]
 };
