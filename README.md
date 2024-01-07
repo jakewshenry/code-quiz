@@ -52,6 +52,8 @@ MDN Functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Fun
 
 MDN If else statements - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 
+Quiz questions: https://www.sitepoint.com/simple-javascript-quiz/
+
 
 ## License
 
