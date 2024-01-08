@@ -58,6 +58,8 @@ Quiz questions: https://www.sitepoint.com/simple-javascript-quiz/
 
 MDN Local Storage - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
+MDN - Audio Element - https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio
+
 ## License
 
 This project is licensed under the MIT License.
