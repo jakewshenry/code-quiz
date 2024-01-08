@@ -1,6 +1,6 @@
 // Execute code after DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function () {
-	// Get the necessary HTML elements
+	// Create vars from associated HTML elements
 	var startBtn = document.getElementById('start');
 	var questionTitle = document.getElementById('question-title');
 	var choicesContainer = document.getElementById('choices');
@@ -152,8 +152,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		  return;
 		}
 	  
-		// Get existing scores from local storage or initialize an empty array
-		var scores = JSON.parse(localStorage.getItem('scores')) || [];
+        // Retrieve scores from local storage or initialize an empty array
+        var scores = JSON.parse(localStorage.getItem('scores')) || [];
 	  
 		// Add current score to array
 		scores.push({ initials: initials, score: timeLeft });
